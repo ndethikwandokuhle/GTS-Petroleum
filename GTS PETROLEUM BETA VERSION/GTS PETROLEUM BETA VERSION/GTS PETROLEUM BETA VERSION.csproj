@@ -1,0 +1,880 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FAD88887-7E79-4A5C-A7B1-9E95A1E53D09}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GTS_PETROLEUM_BETA_VERSION</RootNamespace>
+    <AssemblyName>GTS PETROLEUM BETA VERSION</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.19.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.19.4\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.2.6\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.2.6\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="KwandoPanel">
+      <HintPath>..\..\..\Completed Projects\KwandoPanel\KwandoPanel\bin\Debug\KwandoPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.31.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.31\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZstdNet, Version=1.4.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.31\lib\net452\ZstdNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts.cs" />
+    <Compile Include="Appstats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Appstats.Designer.cs">
+      <DependentUpon>Appstats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendentsProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendentsProfile.Designer.cs">
+      <DependentUpon>AttendentsProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auth_Reading.cs" />
+    <Compile Include="Backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Backup.Designer.cs">
+      <DependentUpon>Backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlAccount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlAccount.Designer.cs">
+      <DependentUpon>ControlAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlDeliveries.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlDeliveries.Designer.cs">
+      <DependentUpon>ControlDeliveries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlHome.Designer.cs">
+      <DependentUpon>ControlHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlLedger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlLedger.Designer.cs">
+      <DependentUpon>ControlLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlReading.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlReading.Designer.cs">
+      <DependentUpon>ControlReading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlReports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlReports.Designer.cs">
+      <DependentUpon>ControlReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlSales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlSales.Designer.cs">
+      <DependentUpon>ControlSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateChecker.cs" />
+    <Compile Include="DbConn.cs" />
+    <Compile Include="Deliveries_data_checker.cs" />
+    <Compile Include="Delivery.cs" />
+    <Compile Include="Deliveryallocation2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deliveryallocation2.Designer.cs">
+      <DependentUpon>Deliveryallocation2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeliveryInfor.Designer.cs">
+      <DependentUpon>DeliveryInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delliveryallocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delliveryallocation.Designer.cs">
+      <DependentUpon>Delliveryallocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs" />
+    <Compile Include="Feedback.cs" />
+    <Compile Include="Getstartedalldata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Getstartedalldata.Designer.cs">
+      <DependentUpon>Getstartedalldata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetstartedDipreading.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GetstartedDipreading.Designer.cs">
+      <DependentUpon>GetstartedDipreading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetstartedFinish.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GetstartedFinish.Designer.cs">
+      <DependentUpon>GetstartedFinish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetstartedMeterreading.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GetstartedMeterreading.Designer.cs">
+      <DependentUpon>GetstartedMeterreading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetstartedRates.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GetstartedRates.Designer.cs">
+      <DependentUpon>GetstartedRates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetstartedStaff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GetstartedStaff.Designer.cs">
+      <DependentUpon>GetstartedStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetstartedStation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GetstartedStation.Designer.cs">
+      <DependentUpon>GetstartedStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetstartedWelcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GetstartedWelcome.Designer.cs">
+      <DependentUpon>GetstartedWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homesalesprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homesalesprint.Designer.cs">
+      <DependentUpon>Homesalesprint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ledger.cs" />
+    <Compile Include="Ledgercategory.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance.Designer.cs">
+      <DependentUpon>Maintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New_system.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_system.Designer.cs">
+      <DependentUpon>New_system.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpeningMeter.cs" />
+    <Compile Include="OpeningReading.cs" />
+    <Compile Include="Rates.cs" />
+    <Compile Include="Reading.cs" />
+    <Compile Include="ReportAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAccounts.Designer.cs">
+      <DependentUpon>ReportAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAttendants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAttendants.Designer.cs">
+      <DependentUpon>ReportAttendants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDeliveries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportDeliveries.Designer.cs">
+      <DependentUpon>ReportDeliveries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportLedger.Designer.cs">
+      <DependentUpon>ReportLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportMore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportMore.Designer.cs">
+      <DependentUpon>ReportMore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportRates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportRates.Designer.cs">
+      <DependentUpon>ReportRates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportReadings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportReadings.Designer.cs">
+      <DependentUpon>ReportReadings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportSales.Designer.cs">
+      <DependentUpon>ReportSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportsSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportsSelection.Designer.cs">
+      <DependentUpon>ReportsSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retrievepassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retrievepassword.Designer.cs">
+      <DependentUpon>Retrievepassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sale.cs" />
+    <Compile Include="SaleProfile.cs" />
+    <Compile Include="Salesflow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salesflow.Designer.cs">
+      <DependentUpon>Salesflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splashscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashscreen.Designer.cs">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Station.cs" />
+    <Compile Include="Tankdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tankdata.Designer.cs">
+      <DependentUpon>Tankdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction.cs" />
+    <Compile Include="Transations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transations.Designer.cs">
+      <DependentUpon>Transations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="VerifySale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerifySale.Designer.cs">
+      <DependentUpon>VerifySale.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Appstats.resx">
+      <DependentUpon>Appstats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendentsProfile.resx">
+      <DependentUpon>AttendentsProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup.resx">
+      <DependentUpon>Backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlAccount.resx">
+      <DependentUpon>ControlAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlDeliveries.resx">
+      <DependentUpon>ControlDeliveries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlHome.resx">
+      <DependentUpon>ControlHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlLedger.resx">
+      <DependentUpon>ControlLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlReading.resx">
+      <DependentUpon>ControlReading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlReports.resx">
+      <DependentUpon>ControlReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlSales.resx">
+      <DependentUpon>ControlSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deliveryallocation2.resx">
+      <DependentUpon>Deliveryallocation2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeliveryInfor.resx">
+      <DependentUpon>DeliveryInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delliveryallocation.resx">
+      <DependentUpon>Delliveryallocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Getstartedalldata.resx">
+      <DependentUpon>Getstartedalldata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetstartedDipreading.resx">
+      <DependentUpon>GetstartedDipreading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetstartedFinish.resx">
+      <DependentUpon>GetstartedFinish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetstartedMeterreading.resx">
+      <DependentUpon>GetstartedMeterreading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetstartedRates.resx">
+      <DependentUpon>GetstartedRates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetstartedStaff.resx">
+      <DependentUpon>GetstartedStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetstartedStation.resx">
+      <DependentUpon>GetstartedStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetstartedWelcome.resx">
+      <DependentUpon>GetstartedWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homesalesprint.resx">
+      <DependentUpon>Homesalesprint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance.resx">
+      <DependentUpon>Maintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_system.resx">
+      <DependentUpon>New_system.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAccounts.resx">
+      <DependentUpon>ReportAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAttendants.resx">
+      <DependentUpon>ReportAttendants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportDeliveries.resx">
+      <DependentUpon>ReportDeliveries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportLedger.resx">
+      <DependentUpon>ReportLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportMore.resx">
+      <DependentUpon>ReportMore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportRates.resx">
+      <DependentUpon>ReportRates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportReadings.resx">
+      <DependentUpon>ReportReadings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportSales.resx">
+      <DependentUpon>ReportSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsSelection.resx">
+      <DependentUpon>ReportsSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retrievepassword.resx">
+      <DependentUpon>Retrievepassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salesflow.resx">
+      <DependentUpon>Salesflow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashscreen.resx">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Tankdata.resx">
+      <DependentUpon>Tankdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transations.resx">
+      <DependentUpon>Transations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerifySale.resx">
+      <DependentUpon>VerifySale.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guest1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accounts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accounts1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivery1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\readings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\utilities.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\general_ledger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cleardata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savedata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oil_tanker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smallemail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie_chart_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_message_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\available_updates_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registry_editor_120px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registry_editor_120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rm422-076-x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledger_15px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\more_or_equal_15px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales_performance_15px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_group_22px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_22px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Price Tag USD_22px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data_recovery_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_from_cloud_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graph_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nas_22px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_graph_report_22px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\share_22px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_width_22px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_view_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_archive_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-517188688-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rewind_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast_forward_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\validation_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broom_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delivered_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\readings_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accounts_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledger_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copyright_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kkk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_90px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_vertical_90px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screenshot_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send_email_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screenshot_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broom_15px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broom_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female_user_update_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_120px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_120pxx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_120p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy_120px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlucky_120px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inspection_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\financial_growth_analysis_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gas_station_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco_fuel_30px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

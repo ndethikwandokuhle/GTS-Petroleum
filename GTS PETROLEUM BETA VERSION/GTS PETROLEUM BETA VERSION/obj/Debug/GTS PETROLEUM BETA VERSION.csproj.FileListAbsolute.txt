@@ -1,0 +1,76 @@
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\GTS PETROLEUM BETA VERSION.exe.config
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\GTS PETROLEUM BETA VERSION.exe
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\GTS PETROLEUM BETA VERSION.pdb
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\System.Buffers.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\System.Memory.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\ZstdNet.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\MySql.Data.xml
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\System.Buffers.xml
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\System.Memory.xml
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS PETROLEUM BETA VERSION.csproj.GenerateResource.cache
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS PETROLEUM BETA VERSION.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS PETROLEUM BETA VERSION.csproj.CopyComplete
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS PETROLEUM BETA VERSION.exe
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS PETROLEUM BETA VERSION.pdb
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Splashscreen.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\KwandoPanel.dll
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\bin\Debug\KwandoPanel.pdb
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Login.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Retrievepassword.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Dashboard.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ControlHome.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ControlDeliveries.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ControlReading.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Tankdata.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ControlSales.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ControlAccount.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ControlReports.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ControlLedger.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Maintenance.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Appstats.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.DeliveryInfor.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.GetstartedWelcome.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.New_system.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.GetstartedStation.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.GetstartedDipreading.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.GetstartedFinish.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.GetstartedMeterreading.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.GetstartedRates.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.GetstartedStaff.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Getstartedalldata.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Homesalesprint.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Delliveryallocation.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Deliveryallocation2.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Transations.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.AttendentsProfile.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.VerifySale.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Salesflow.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS PETROLEUM BETA VERSION.csproj.ResolveComReference.cache
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.Backup.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS PETROLEUM BETA VERSION.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ReportSales.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ReportsSelection.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ReportDeliveries.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ReportAccounts.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ReportAttendants.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ReportLedger.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ReportRates.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ReportReadings.resources
+C:\Users\user\Documents\Visual Studio 2019\Active Projects\GTS PETROLEUM BETA VERSION\GTS PETROLEUM BETA VERSION\obj\Debug\GTS_PETROLEUM_BETA_VERSION.ReportMore.resources
